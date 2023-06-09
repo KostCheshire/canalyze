@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Функция для поиска функции в файле и вывода ее тела
-
 int main(int argc, char* argv[]) {
     if (argc < 2) {
         printf("Usage: %s [filename]\n",argv[0]);
